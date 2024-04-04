@@ -1,0 +1,95 @@
+/* Style de base pour la barre de navigation */
+.inscri{
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.para-lient{
+  margin-bottom: 12px;
+  font-size: x-large;
+}
+.wrapper {
+  background-color: #007fff;
+  height: 100px;
+  color: #fff; /* Couleur du texte */
+  padding: 3px 30px; /* Espacement interne */
+  font-family: Arial, sans-serif; /* Police de caractère */
+}
+
+/* Style pour le conteneur de la barre de navigation */
+.container {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  justify-content: space-between; /* Alignement des éléments sur l'axe principal */
+  align-items: center; /* Alignement vertical */
+}
+
+/* Style pour le logo */
+.link-brand {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.link-brand img {
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 29px;
+}
+
+.link-brand a {
+  text-decoration: none; /* Supprimer la soulignement du lien */
+  color: #fff; /* Couleur du texte */
+  font-size: 24px; /* Taille de police */
+  font-weight: bold; /* Poids de la police */
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+  /* Promotional Title Section */
+  .promo-section {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  .promo-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .promo-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+
+ /* Style de base pour le bouton de connexion */

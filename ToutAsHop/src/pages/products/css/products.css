@@ -1,0 +1,45 @@
+.home-page {
+    padding: 20px;
+    background-color: aquamarine;
+  }
+  
+  .banner {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .recommended-products {
+    margin-top: 50px;
+  }
+  
+  .recommended-products h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .promotion {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .promotion h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .promotion p {
+    font-size: 18px;
+    color: #666;
+  }
